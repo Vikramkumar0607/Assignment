@@ -23,6 +23,9 @@ public class Assignment_DataType {
         double city_dist=200.5;
         double locationlatitude =37.7749;
 		double location_longituda=-122.4194;
+		
+		//Time event variable
+		double event =2.30;
 	}
 
 }
