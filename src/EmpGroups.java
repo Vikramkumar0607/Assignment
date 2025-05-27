@@ -1,6 +1,6 @@
 import javax.swing.plaf.synth.SynthOptionPaneUI;
 
-public class EmpGroups extends Employees {
+public class EmpGroups extends Employees {  //child class before extends, parent is after extends
 
 	public static void main(String[] args) {
 
