@@ -2,11 +2,11 @@
 public class Assignment_Arrays {
 
 	public static void main(String[] args) {
-		
+
 		//Array data type can store multiple values with similar  data type together at one place
-		
+
 		//Syntax to initialize  array : DataType [] variable ={value1 ,value2,value3};
-		
+
 		//1D Array Semester
 		String[] Semester = {"sem1","sem2","sem3","sem4","sem5"};
 
@@ -60,9 +60,9 @@ public class Assignment_Arrays {
 		System.out.println("Semester  2 subject 4 name is " +Sem2_Subject_MS[0][0][3]);
 		System.out.println("Semester  2 subject 5 name is " +Sem2_Subject_MS[0][0][4]);
 
-		
-		
-		
+
+
+
 	}
 
 }
