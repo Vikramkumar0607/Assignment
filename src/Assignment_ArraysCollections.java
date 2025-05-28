@@ -6,8 +6,10 @@ import java.util.Set;
 public class Assignment_ArraysCollections {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		
 		//Create Lists with area of top 5 largest cities. Print the total area of the 3rd and 4th cities combined.
+		//List is allow null  and  duplicate values
 		ArrayList<String> largestcities = new ArrayList<String> ();
 		largestcities.add("Delhi");
 		largestcities.add("Bangalore");
@@ -18,11 +20,23 @@ public class Assignment_ArraysCollections {
 		System.out.println("Larget cities 3rd " + largestcities.get(2) + " and Larget cities 4th " + largestcities.get(3));
 
 		//Create a set of the top 10 most visited tourist attractions in the world and print out all of them and its size.
+		//Set allow one null value, and duplicate values are not 
 		Set<String> touristplace = new HashSet<String>();
-
+		touristplace.add("Varanasi");
+		touristplace.add("Taj Mahal");
+		touristplace.add("Eiffel Tower");
+		touristplace.add("colosseum");
+		touristplace.add("Eiffel Tower");
+		touristplace.add("Grand Canyon");
+		touristplace.add("Sagrada Familia");
+		touristplace.add("Great Wall of China");
+		touristplace.add("Istanbul");
+		touristplace.add("Niagara Falls");
+		System.out.println("**********************Set*****************");
+		System.out.println("Size of the set values "+ touristplace.size());
 
 		//Create a list of the top 5 highest-grossing movies of all time and print out the third movie on the list.
-		LinkedList<String> movies = new LinkedList<String>();
+		LinkedList<String> movies = new LinkedList<String>() ;
 		movies.add("Baahubali 2");
 		movies.add("RRR");
 		movies.add("Kalki 2898 AD");
