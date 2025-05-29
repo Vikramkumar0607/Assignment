@@ -55,13 +55,101 @@ public class Assigment_Collections {
 		StudentThree.put("Email", "mike@example.com");
 		StudentThree.put("PAN Number", "REW6543212");
 		StudentThree.put("Address", "789 Pine St");
-		
+
 		List<Map<String, String>> StudentList= new ArrayList<>();
 		StudentList.add(StudentOne);
 		StudentList.add(StudentTwo);
 		StudentList.add(StudentThree);
-		
 
+		//EmployeeOne Details
+		Map<String, String> EmployeeOne = new TreeMap<String, String>();
+		EmployeeOne.put("Employee ID", "E001");
+		EmployeeOne.put("Name", "Alice Green");
+		EmployeeOne.put("Age", "Thirty");
+		EmployeeOne.put("Gender", "Female");
+		EmployeeOne.put("Department", "Engineering");
+		EmployeeOne.put("Position", "Software Engineer");
+		EmployeeOne.put("Salary", "75K Pounds");
+		EmployeeOne.put("Email", "alice@example.com");
+		EmployeeOne.put("PAN Number", "SDF6543210");
+
+
+		//Employee Two Details
+		Map<String, String> EmployeeTwo = new TreeMap<String, String>();
+		EmployeeOne.put("Employee ID", "E002");
+		EmployeeOne.put("Name", "Bob Johnson");
+		EmployeeOne.put("Age", "Male");
+		EmployeeOne.put("Gender", "Male");
+		EmployeeOne.put("Department", "Engineering");
+		EmployeeOne.put("Position", "Software Engineer");
+		EmployeeOne.put("Salary", "65K Pounds");
+		EmployeeOne.put("Email", "mike@example.com");
+		EmployeeOne.put("PAN Number", "REW6543212");
+		
+		//Employee Three  Details
+		Map<String, String> EmployeeThree = new TreeMap<String, String>();
+		EmployeeOne.put("Employee ID", "E003");
+		EmployeeOne.put("Name", "Twenty Two");
+		EmployeeOne.put("Age", "Male");
+		EmployeeOne.put("Gender", "Female");
+		EmployeeOne.put("Department", "A+");
+		EmployeeOne.put("Position", "Physics");
+		EmployeeOne.put("Salary", "85K Pounds");
+		EmployeeOne.put("Email", "mike@example.com");
+		EmployeeOne.put("PAN Number", "REW6543212");
+
+
+		List<Map<String, String>> EmployeeDetails= new ArrayList<>();
+		EmployeeDetails.add(EmployeeOne);
+		EmployeeDetails.add(EmployeeTwo);
+		EmployeeDetails.add(EmployeeThree);
+
+
+		//ProductDetails
+
+
+
+
+		Map<String, String> ProductOne = new TreeMap<String, String>();
+		ProductOne.put("Product ID", "P001");
+		ProductOne.put("Name", "Laptop");
+		ProductOne.put("Category", "Electronics");
+		ProductOne.put("Price", "12K Pounds");
+		ProductOne.put("Stock Quantity", "Not Available");
+		ProductOne.put("Supplier", "Tech Supplies");
+		ProductOne.put("Warranty", "2 years");
+		ProductOne.put("Rating", "4.5 Stars");
+		ProductOne.put("Manufacturing Date", "Aug 2023");
+		ProductOne.put("Expiry Date", "Aug 2028");
+		//ProductDetails
+		Map<String, String> ProductTwo = new TreeMap<String, String>();
+		ProductTwo.put("Product ID", "P002");
+		ProductTwo.put("Name", "Desk Chair");
+		ProductTwo.put("Category", "Furniture");
+		ProductTwo.put("Price", "150K Pounds");
+		ProductTwo.put("Stock Quantity", "Two");
+		ProductTwo.put("Supplier", "Office Depot");
+		ProductTwo.put("Warranty", "1 year");
+		ProductTwo.put("Rating", "4 Stars");
+		ProductTwo.put("Manufacturing Date", "Sep 2024");
+		ProductTwo.put("Expiry Date", "N/A");
+		//ProductDetails
+		Map<String, String> ProductThree = new TreeMap<String, String>();				
+		ProductThree.put("Product ID", "P003");
+		ProductThree.put("Name", "Coffee Maker");
+		ProductThree.put("Category", "Kitchen");
+		ProductThree.put("Price", "75 Pounds");
+		ProductThree.put("Stock Quantity", "Two Hundred");
+		ProductThree.put("Supplier", "KitchenWorld");
+		ProductThree.put("Warranty", "6 months");
+		ProductThree.put("Rating", "4.2 Stars");
+		ProductThree.put("Manufacturing Date", "Jan 2025");
+		ProductThree.put("Expiry Date", "Jan 2027");
+
+		List<Map<String, String>> ProductDetails= new ArrayList<>();
+		ProductDetails.add(ProductOne);
+		ProductDetails.add(ProductTwo);
+		ProductDetails.add(ProductThree);
 
 	}
 
