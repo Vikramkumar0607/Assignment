@@ -15,8 +15,7 @@ public class Assigment_Collections {
 
 		//and from that variable,  Print the data  Supplier Name > Office Depot  from Product details table.
 
-
-		System.out.println("**********HashMap************");
+		System.out.println("**********TreeMap************");
 		Map<String, String> StudentOne = new TreeMap<String, String>();
 		StudentOne.put("Name", "John Doe");
 		StudentOne.put("Age", "Twenty");
@@ -78,25 +77,25 @@ public class Assigment_Collections {
 		Map<String, String> EmployeeTwo = new TreeMap<String, String>();
 		EmployeeOne.put("Employee ID", "E002");
 		EmployeeOne.put("Name", "Bob Johnson");
-		EmployeeOne.put("Age", "Male");
+		EmployeeOne.put("Age", "Thirty Five");
 		EmployeeOne.put("Gender", "Male");
-		EmployeeOne.put("Department", "Engineering");
-		EmployeeOne.put("Position", "Software Engineer");
-		EmployeeOne.put("Salary", "65K Pounds");
-		EmployeeOne.put("Email", "mike@example.com");
-		EmployeeOne.put("PAN Number", "REW6543212");
+		EmployeeOne.put("Department", "Marketing");
+		EmployeeOne.put("Position", "Marketing Manager");
+		EmployeeOne.put("Salary", "85K Pounds");
+		EmployeeOne.put("Email", "bob@example.com");
+		EmployeeOne.put("PAN Number", "REW6543211");
 		
 		//Employee Three  Details
 		Map<String, String> EmployeeThree = new TreeMap<String, String>();
 		EmployeeOne.put("Employee ID", "E003");
-		EmployeeOne.put("Name", "Twenty Two");
-		EmployeeOne.put("Age", "Male");
+		EmployeeOne.put("Name", "Carol White");
+		EmployeeOne.put("Age", "Twenty Eight");
 		EmployeeOne.put("Gender", "Female");
-		EmployeeOne.put("Department", "A+");
-		EmployeeOne.put("Position", "Physics");
-		EmployeeOne.put("Salary", "85K Pounds");
-		EmployeeOne.put("Email", "mike@example.com");
-		EmployeeOne.put("PAN Number", "REW6543212");
+		EmployeeOne.put("Department", "Sales");
+		EmployeeOne.put("Position", "Sales Executive");
+		EmployeeOne.put("Salary", "65k Pounds");
+		EmployeeOne.put("Email", "carol@example.com");
+		EmployeeOne.put("PAN Number", "TYR6543212");
 
 
 		List<Map<String, String>> EmployeeDetails= new ArrayList<>();
@@ -106,9 +105,6 @@ public class Assigment_Collections {
 
 
 		//ProductDetails
-
-
-
 
 		Map<String, String> ProductOne = new TreeMap<String, String>();
 		ProductOne.put("Product ID", "P001");
@@ -150,6 +146,15 @@ public class Assigment_Collections {
 		ProductDetails.add(ProductOne);
 		ProductDetails.add(ProductTwo);
 		ProductDetails.add(ProductThree);
+		
+		Map<String,List<Map<String, String>>> data = new TreeMap<String, List<Map<String,String>>>();
+		data.put("Students", StudentList);
+		data.put("Employees", EmployeeDetails);
+		data.put("Products", ProductDetails);
+		System.out.println(data.size());
+		System.out.println(data.get("Products").get(1).get("Supplier"));
+		
+	
 
 	}
 
