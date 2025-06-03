@@ -84,7 +84,7 @@ public class Assigment_Collections {
 		EmployeeOne.put("Salary", "85K Pounds");
 		EmployeeOne.put("Email", "bob@example.com");
 		EmployeeOne.put("PAN Number", "REW6543211");
-		
+
 		//Employee Three  Details
 		Map<String, String> EmployeeThree = new TreeMap<String, String>();
 		EmployeeOne.put("Employee ID", "E003");
@@ -146,15 +146,15 @@ public class Assigment_Collections {
 		ProductDetails.add(ProductOne);
 		ProductDetails.add(ProductTwo);
 		ProductDetails.add(ProductThree);
-		
+
 		Map<String,List<Map<String, String>>> data = new TreeMap<String, List<Map<String,String>>>();
 		data.put("Students", StudentList);
 		data.put("Employees", EmployeeDetails);
 		data.put("Products", ProductDetails);
 		System.out.println(data.size());
 		System.out.println(data.get("Products").get(1).get("Supplier"));
-		
-	
+
+
 
 	}
 
