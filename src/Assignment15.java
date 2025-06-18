@@ -1,6 +1,3 @@
-import java.util.Iterator;
-
-import javax.swing.plaf.synth.SynthOptionPaneUI;
 
 public class Assignment15 {
 
