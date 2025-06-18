@@ -14,6 +14,7 @@ public class Assignment15 {
 
 		}
 		System.out.println("Reverse Sentence is: " + reverseSentence);
+		
 		//Convert the first character of each word to uppercase and print original sentence
 		String finalvalue="";
 		for(int j =0; j<words.length;j++) {

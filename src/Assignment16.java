@@ -10,7 +10,6 @@ public class Assignment16 {
 		int count = 0;
 		for(int i =0; i< words.length;i++) {
 			// Also remove punctuation like '.', ',' from word if present
-		//	String word =words[i].replaceAll("[^a-zA-Z]", "");
 			String word = words[i].replaceAll("[^a-zA-Z]", "");
 			System.out.println(word);
 			if (word.equalsIgnoreCase("Java")) {

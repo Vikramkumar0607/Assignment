@@ -13,7 +13,7 @@ public class Assignment16_CountWords {
 				
 				// Loop through the array of words
 				for (int i = 0; i < words.length; i++) {
-					
+			
 					// Check if the current word is "Java", ignoring case (e.g., "java", "JAVA", etc.)
 					// Also remove punctuation like '.', ',' from word if present
 					String word = words[i].replaceAll("[^a-zA-Z]", ""); // remove punctuation
