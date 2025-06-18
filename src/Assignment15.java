@@ -8,13 +8,12 @@ public class Assignment15 {
 		System.out.println(sentence.length());
 		
 		//Print the sentence words in reverse order.
-		String reverseSentence ="";
-		for(int i = sentence.length()-1 ; i>=0;i--) {
+		String [] value = sentence.split(" ");
+		for(int i = value.length-1 ; i>=0;i--) {
 			
-			reverseSentence =reverseSentence +sentence.charAt(i);
+			System.out.print(value[i]+" ");
 		}
-		System.out.println(reverseSentence);
-		
+		System.out.println("");
 		//Convert the first character of each word to uppercase and print original sentence
 		
 		String [] values = sentence.split(" ");
