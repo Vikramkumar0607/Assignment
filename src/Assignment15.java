@@ -18,16 +18,16 @@ public class Assignment15 {
 		
 		//Convert the first character of each word to uppercase and print original sentence
 		
-		String [] value = sentence.split(" ");
-		String uppercase ="";
-		for (int j =0 ; j<value.length;j++) {
-			uppercase =uppercase+value[j];
-			String capitalizedWord =value(0, 1).toUpperCase() + uppercase.substring(1);
-			
+		String [] values = sentence.split(" ");
+		StringBuilder titleCaseSentence = new StringBuilder();
+		for(String value : values) {
+			if(sentence.length()>0) {
+				String capitalizedWord = value.substring(0, 1).toUpperCase() + value.substring(1);
+                titleCaseSentence.append(capitalizedWord).append(" ");
+			}
 			
 		}
-		System.out.println(uppercase.toUpperCase());
-		
+		System.out.println("Title Case Sentence: " + titleCaseSentence.toString().trim());		
 
 	}
 
