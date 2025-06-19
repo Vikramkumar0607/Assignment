@@ -29,21 +29,31 @@ public class Assignment18StringOperations {
 		System.out.println(s2 + " is a palindrome: " + isPalindrome(s2));
 
 		System.out.println("**********************Used for loop using with lowercase string length and compared*******************");
+		
+		String [] array = {s1,s2};
+		String value ="";
+		for(int a =0;a<array.length;a++) {
+			 value=array[a];
+			 System.out.println(value);
+			 String reverseSentence = "";
+			for(int i = value.length()-1 ; i>=0;i--) {
+				reverseSentence =reverseSentence+value.charAt(i);
 
-		String reverseSentence = "";
-		for(int i = s1.length()-1 ; i>=0;i--) {
-			reverseSentence =reverseSentence+s1.charAt(i);
+			} 
+			//System.out.println("Reverse Sentence is: " + reverseSentence);
 
-		} System.out.println("Reverse Sentence is: " + reverseSentence);
-
-		if(s1.equals(reverseSentence)) {
-			System.out.println(s1 + " is a palindrome: "  +reverseSentence); 
-		} 
-		else { System.out.println(s1 + " is a not palindrome: " +reverseSentence); }
+			if(value.equals(reverseSentence)) {
+				System.out.println(value + " is a palindrome: "  +reverseSentence); 
+			} 
+			else { 
+				System.out.println(value + " is a not palindrome: " +reverseSentence);
+		}
+		
+		 }
 
 
 		System.out.println("************************while & For & Array statement used for palindrome*****************************");
-		String [] array = {s1,s2};
+		
 		for (int k =0; k<array.length;k++) {
 			String values=array[k];
 			int i =0;
