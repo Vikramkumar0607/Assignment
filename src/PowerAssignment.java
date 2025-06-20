@@ -2,27 +2,21 @@
 public class PowerAssignment {
 
 	public static double power(double x, int n) {
-
 		double numbertwo = 1;
 		if (n > 0) {
 			int k = 1;
 			while (k <= n) {
 				numbertwo = numbertwo * x;
-
 				k++;
 			}
 		} else {
 			int k = -1;
 			while (k >= n) {
-
 				numbertwo = numbertwo / x;
-
 				k--;
 			}
 		}
-
 		return numbertwo;
-
 	}
 
 	public static void main(String[] args) {
