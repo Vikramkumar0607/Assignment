@@ -1,15 +1,18 @@
 
 public class PowerAssignment {
-
+     
 	public static double power(double x, int n) {
 		double numbertwo = 1;
+		//If power is positive values 
 		if (n > 0) {
 			int k = 1;
 			while (k <= n) {
 				numbertwo = numbertwo * x;
 				k++;
 			}
-		} else {
+		} 
+		//If power is negative values 
+		else {
 			int k = -1;
 			while (k >= n) {
 				numbertwo = numbertwo / x;
