@@ -1,6 +1,6 @@
 
 public class PowerAssignment {
-	
+
 	public static double power(double x, int n) {
 
 		double numbertwo = 1;
@@ -24,7 +24,6 @@ public class PowerAssignment {
 		return numbertwo;
 
 	}
-
 
 	public static void main(String[] args) {
 		System.out.println("Example 1 : " + power(2.00000, 10));
