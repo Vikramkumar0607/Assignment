@@ -5,7 +5,7 @@ public class Assignment18StringOperations {
 	public static boolean isPalindrome(String str) {
 		// StringBuilder ==> StringBuilder is mutable class ==> Non-synchronized
 		String reversedStr = new StringBuilder(str).reverse().toString();
-		System.out.println(reversedStr);
+		//System.out.println(reversedStr);
 		return str.equalsIgnoreCase(reversedStr);
 
 	}
@@ -29,8 +29,7 @@ public class Assignment18StringOperations {
 		System.out.println(s1 + " is a palindrome: " + isPalindrome(s1));
 		System.out.println(s2 + " is a palindrome: " + isPalindrome(s2));
 
-		System.out.println(
-				"**********************Used for loop using with lowercase string length and compared*******************");
+		System.out.println("**********************Used for loop using with lowercase string length and compared*******************");
 
 		String[] array = { s1, s2 };
 		String value = "";
