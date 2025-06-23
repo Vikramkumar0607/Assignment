@@ -1,3 +1,4 @@
+import java.util.function.Function;
 import java.util.function.Supplier;
 
 public class Assignment19DefaultFunctionalInterfaces {
@@ -10,11 +11,17 @@ public class Assignment19DefaultFunctionalInterfaces {
 		System.out.println(if1.squre(4));
 		
 		
-		//Predicate
+		//Predicate Predicate<T>
 		
-		//Consumer
-		//Function
-		//Supplier
+		//Consumer Consumer<T>
+		//Function Function<T, R>
+		Function<String, Integer> stringLength = str->str.length() ;
+		System.out.println("Length of sentence is : "+stringLength.apply("Java programming is fun and challenging"));
+		Function<Integer, String> integertoString = inter -> "Number is :" +inter;
+		System.out.println(integertoString.apply(1000));
+		
+		
+				//Supplier Supplier<T>
 		Supplier<Double> randonNumber=()-> Math.random();
 		Supplier<String> defaultMessage=() -> "Sullier Functional";
 		
