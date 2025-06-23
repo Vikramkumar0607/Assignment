@@ -1,3 +1,4 @@
+import java.util.function.Supplier;
 
 public class Assignment19DefaultFunctionalInterfaces {
 
@@ -10,9 +11,15 @@ public class Assignment19DefaultFunctionalInterfaces {
 		
 		
 		//Predicate
+		
 		//Consumer
 		//Function
 		//Supplier
+		Supplier<Double> randonNumber=()-> Math.random();
+		Supplier<String> defaultMessage=() -> "Sullier Functional";
+		
+		System.out.println("Randon Number is a : "+randonNumber.get());
+		System.out.println(defaultMessage.get());
 		
 		
 
